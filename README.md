@@ -34,4 +34,51 @@ A Gen Z-focused personal finance tracker MVP that helps users manage budgets, mo
 ---
 
 ## 🗂 Project Structure
+personal-finance-tracker-mvp/
+├── backend/
+│ ├── app.py # Main Flask app
+│ ├── db_config.py # Database connection config
+│ ├── requirements.txt # Python dependencies
+│ └── README.md # Backend-specific instructions
+├── design/
+│ └── wireframes.png # Figma wireframe screenshot
+├── docs/
+│ └── product_spec.md # Product spec & functional doc
+├── .gitignore
+└── README.md # This file
 
+
+
+---
+
+## ⚙️ Installation (for local testing)
+
+```bash
+git clone https://github.com/your-username/personal-finance-tracker-mvp.git
+cd personal-finance-tracker-mvp/backend
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+python app.py
+
+
+🚀 Usage
+Start the Flask server
+
+Use Postman or a simple HTML form (later React frontend) to interact with APIs
+
+Add expenses, create budgets, and view category breakdown
+
+📈 Future Enhancements
+UPI transaction parsing using SMS or email scraping
+
+User dashboard frontend in React Native or Flutter
+
+Savings goal progress visualizations
+
+Firebase or Supabase for auth & analytics
+
+Mobile PWA version
+
+🤝 Contributing
+Pull requests are welcome! For major changes, open an issue first to discuss what you would like to change.
